@@ -1,4 +1,4 @@
-<% if logged_in? %>
+
 
  <h1>タスク一覧</h1>
 
@@ -10,12 +10,4 @@
 
 <%= link_to "新規タスクを追加", new_task_path %>
  
-<% else %>
-<div class-"center">
- <div class="text-center">
-  <%= link_to "新規登録", users_new_path, class: "btn btn-primary" %>
- </div>
-</div>
 
-
-<% end %>
